@@ -39,21 +39,9 @@ namespace calculo_pascoa
                 Console.Write(carnaval.ToString("dd / MM / yyyy") + " - Terça-Feira de Carnaval\n\n" + cinzas.ToString("dd / MM / yyyy") + " - Quarta-Feira de Cinzas\n\n" + paixao.ToString("dd / MM / yyyy") + " - Sexta-Feira da Paixão\n\n" + datac.ToString("dd / MM / yyyy")+" - Domingo de Páscoa\n\n" + corpus.ToString("dd / MM / yyyy")+ " - Corpus Christi");
                 Console.ReadLine();
 
-               
-               
-
-                
-
-                
-
-
-
-
-
             }
             catch (FormatException){
                 Console.WriteLine("Parametros incorretos! Digite apenas números...");
-
 
             }
         }
